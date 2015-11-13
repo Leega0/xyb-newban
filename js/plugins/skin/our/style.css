@@ -1,0 +1,7 @@
+html #layui_layer_skinourstylecss{display: none;position: absolute;width: 1989px;}
+body .layer-ext-our .layui-layer-title{}
+body .layui-ext-our .layui-layer-btn{}
+body .layui-ext-our .layui-layer-btn a{}
+body .layui-ext-our .layui-layer-close{
+	background:url(icon-close.png) no-repeat;
+}
