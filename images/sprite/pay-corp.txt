@@ -1,4 +1,0 @@
-img-corplink-lfbank.png, 72, 72, 0, 0
-img-corplink-pabank.png, 72, 72, 74, 0
-img-corplink-sina.png, 72, 72, 148, 0
-img-corplink-unic.png, 72, 72, 222, 0
