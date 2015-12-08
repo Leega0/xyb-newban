@@ -237,6 +237,31 @@ html{
 			padding-top: 20px;
 		}
 	}
+	&.index-invest-bbg{
+		.header-left{
+			background-color: #f15f8f;
+		}
+		.invest-right{
+			.figure{
+				td{
+					position:relative;
+					.f{
+						position:absolute;
+						width: 56px;
+						text-align: center;
+						height: 20px;
+						line-height: 20px;
+						text-align: center;
+						font-size: 12px;
+						font-family: "微软雅黑";
+						color: #fff;
+						background-color: #2e97f3;
+						border-radius:10px;
+					}
+				}
+			}
+		}
+	}
 	&.index-invest-hqb{
 		.header-left{
 			height: 170px;
@@ -256,6 +281,10 @@ html{
 			height: 260px;
 			background-color: #64b5d3;
 			padding-top: 95px;
+		}
+		.invest-right{
+			height: 334px;
+			overflow: hidden;
 		}
 	}
 }
@@ -288,16 +317,9 @@ html{
 			line-height: 30px;
 			color: #fff;
 			font-size: 16px;
-			background-color: #8ec31f;
 			border-radius: 50%;
 			text-align: center;
 			margin: 0 auto;
-			&.level_9{
-				background-color: #ff8a00;
-			}
-			&.level_8{
-				background-color: #ff5400;
-			}
 		}
 		.ui-btn{
 			padding:10px 0;
@@ -493,7 +515,9 @@ html{
 		height:34px;
 		border-radius:3px;
 		border:0;
-		padding:0 14px;
+		line-height: 34px;
+		padding-left: 14px;
+		padding-right: 14px;
 	}
 	a{
 		float: right;
@@ -631,18 +655,19 @@ html{
 				}
 				dd{
 					padding-top: 10px;
-					a{
-						color: #ababab;
-						font-size: 12px;
-						&:hover{
-							color: #2c97f4;
-							text-decoration: underline;
-						}
-					}
+					// a{
+					// 	color: #ababab;
+					// 	font-size: 12px;
+					// 	&:hover{
+					// 		color: #2c97f4;
+					// 		text-decoration: underline;
+					// 	}
+					// }
 				}
 				.title{
 					font-size: 18px;
 					font-weight: bold;
+					padding-top: 24px;
 				}
 			}
 		}

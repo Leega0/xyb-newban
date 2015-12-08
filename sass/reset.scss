@@ -895,7 +895,7 @@ $base_blue:#2c97f4;
 					line-height: 34px;
 					border-radius:3px;
 					margin-right: 20px;
-					&:hover,&.cur{
+					&.cur{
 							background-color:#2c97f4;
 							color: #fff;
 						}
@@ -903,6 +903,45 @@ $base_blue:#2c97f4;
 						font-size: 18px;
 						display: block;
 					}
+          .drop-box{
+            display: none
+          }
+          &.menu-drop-item{
+            position:relative;
+            ul{
+              position: absolute;
+              background-color: #474e5d;
+              top: 32px;
+              left: 0;
+              padding:10px 0;
+              border-radius:0 3px 3px;
+              z-index: 999;
+              li{
+                width: 120px;
+                margin-right: 0;
+                border-radius:0;
+                &:hover{
+                  background-color: #2c97f4;
+                  a{
+                    color: #fff;
+                  }
+                }
+              }
+              a{
+                font-size: 14px;
+                text-align: left;
+                text-indent: 20px;
+                color: #969dab;
+              }
+            }
+            &.drop-hover{
+              background-color: #474e5d;
+            color: #fff;
+              .drop-box{
+            display: block;
+          }
+            }
+          }
 				}
 			}
 		}
@@ -1142,7 +1181,7 @@ $base_blue:#2c97f4;
 		.inner-links{
 			float: left;
 			overflow: hidden;
-			padding:5px 50px 0;
+			padding:5px 23px 0;
 			li{
 				float: left;
 				margin-left: 50px;
@@ -1182,37 +1221,6 @@ $base_blue:#2c97f4;
 					font-size: 12px;
 					color: #777;
 					padding-bottom: 5px;
-				}
-			}
-		}
-		.bottom-down{
-			float: right;
-			margin-top: 40px;
-			a{
-				display: block;
-				margin-bottom: 12px;
-				border:1px solid #ddd;
-				border-radius:5px;
-				width: 115px;
-				height: 34px;
-				line-height: 34px;
-				text-align: center;
-				&:hover{
-					border-color:#2c97f4;
-				}
-				i{
-					display:inline-block;
-					width: 18px;
-					height: 16px;
-					position:relative;
-					margin-right: 5px;
-					top: 2px;
-					&.icon-bottom-android{
-						background:url(../images/icon-bottom-android.png) no-repeat center;
-					}
-					&.icon-bottom-apple{
-						background:url(../images/icon-bottom-apple.png) no-repeat center;
-					}
 				}
 			}
 		}
@@ -1669,4 +1677,16 @@ $base_blue:#2c97f4;
   background: url(../images/icon-psw.png) no-repeat;
   width: 30px;
   height: 20px;
+}
+// 标的等级
+.credit-level{
+&.level_b{
+        background-color: #f1c40f;
+      }
+      &.level_c{
+        background-color: #fc8478;
+      }
+      &.level_d{
+        background-color: #ff3939;
+      }
 }

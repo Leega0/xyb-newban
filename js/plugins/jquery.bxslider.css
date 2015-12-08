@@ -23,7 +23,7 @@
 .bx-wrapper a{
 	display: block;
 	height: 320px;
-	background-position: center;
+	background-position: center top;
 }
 .bx-wrapper img {
 	width: 1920px;
